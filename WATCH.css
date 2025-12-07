@@ -1,0 +1,91 @@
+body{
+font-family: sans-serif;
+}
+.span{
+font-size: 25px;
+margin: 0 -163px 0 163px;
+}
+.a,.a1{
+color: black;
+font-weight: bold;
+text-decoration: none;
+margin: 0px 19px 0px 0px;
+font-size: 16px;
+}
+.a1 {
+margin: 0 19px 0 776px;
+}
+a:hover{
+text-decoration: underline;
+}
+.watch{
+width: 243px;
+height: 440px;
+margin: 77px 0 0 220px;
+float: left;
+}
+.h1{
+margin: 132px 197px 0 0;
+float: right;
+font-size: 58px;
+}
+.img{
+overflow: hidden;
+width: 243px;
+}
+.p{
+float: right;
+margin: 29px 219px 0 0;
+}
+.menu{
+width: 70px;
+height: 70px;
+background-color: black;
+border-radius: 12px;
+display: none;
+float:right;
+}
+@media(max-width: 1204px){
+.a,.a1{
+ display: none;
+}
+.menu{
+ display: block;
+}
+}
+.s{
+margin: 4px 0 0 6px;
+}
+.button{
+float: right;
+background-color: orange;
+border: 0px solid;
+height: 40px;
+border-radius: 44px;
+box-shadow: 2px 7px 20px 3px #fbb12a;
+width: 201px;
+margin: 17px 475px 0 0;
+cursor: pointer;
+}
+@media(max-width: 1154px){
+.h1{
+ font-size: 50px;
+}
+.p{
+ font-size: 14px;
+}
+.button{
+ margin: 17px 420px 0 0;
+}
+}
+@media(max-width: 1098px){
+.h1{
+font-size: 42px;
+}
+.p{
+ font-size: 12px;
+}
+.button{
+ margin: 17px 366px 0 0;
+}
+}
