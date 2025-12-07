@@ -88,4 +88,10 @@ font-size: 42px;
 .button{
  margin: 17px 366px 0 0;
 }
+
+}
+.container-lg {
+     max-width: 0px;
+    margin-right: auto;
+    margin-left: auto;
 }
